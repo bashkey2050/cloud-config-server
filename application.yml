@@ -8,10 +8,5 @@ microservice:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
         
- spring:
-   cloud:
-     config:
-       server:
-         git:
-           default-label: main
+
         
